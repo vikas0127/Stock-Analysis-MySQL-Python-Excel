@@ -42,7 +42,7 @@ To fetch historical stock data for major tech companies (AAPL, MSFT, GOOGL), sto
 3.  **Install Libraries:** `pip install -r requirements.txt` (or `pip install pandas yfinance sqlalchemy mysql-connector-python matplotlib openpyxl`)
 4.  **Setup Database:**
     *   Using MySQL Workbench or command line, connect to your MySQL server.
-    *   Create the database: `CREATE DATABASE IF NOT EXISTS stock_market_db;`
+    *   Create the database: `DATABASE stock_market_db`
 5.  **Configure Credentials:**
     *   Rename or copy `config.py`.
     *   Edit `config.py` and replace the placeholder values for `MYSQL_USER` and `MYSQL_PASSWORD` with your actual MySQL credentials. (Note: `yfinance` doesn't require an API key).
